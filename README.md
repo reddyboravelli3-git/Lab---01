@@ -11,7 +11,7 @@
 
 ## Live Link
 
-Deployment URL will be added after the Render service is created.
+The application is deployed on Render: [Open the live app](https://lab-01-ur1x.onrender.com).
 
 ## Objective
 
