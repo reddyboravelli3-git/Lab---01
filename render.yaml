@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lab-01
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start

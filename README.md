@@ -11,8 +11,7 @@
 
 ## Live Link
 
-Not deployed yet. The application has been tested locally on port 3000.
-A public deployment URL will be added after deployment.
+Deployment URL will be added after the Render service is created.
 
 ## Objective
 
@@ -77,6 +76,13 @@ node server-http.js
 ```
 
 Stop one server before starting the other if both use port 3000.
+
+## Deployment
+
+The project includes a Render Blueprint in `render.yaml`. To deploy it, create a
+new Blueprint Instance in Render and connect the `reddyboravelli3-git/Lab---01`
+GitHub repository. Render will install dependencies with `npm ci` and start the
+Express app with `npm start`.
 
 ## Endpoints
 
